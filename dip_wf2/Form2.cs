@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace dip_wf2
@@ -25,7 +20,6 @@ namespace dip_wf2
         {
             InitializeComponent();
             saveFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
-            Console.WriteLine("form 2 "+f);
             int width = 831;
             int height = 463;
             this.ClientSize = new System.Drawing.Size(width, height);
@@ -43,9 +37,7 @@ namespace dip_wf2
         {
             if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
                 return;
-            // получаем выбранный файл
             string filename = saveFileDialog1.FileName;
-            // сохраняем текст в файл
             System.IO.File.WriteAllText(filename, textBox1.Text);
             MessageBox.Show("Файл сохранен");
         }

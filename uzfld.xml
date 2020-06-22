@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<tt>
+	<uz>
+		<typeuz_id>1</typeuz_id>
+		<comment>Рег.№ </comment>
+		<fld>date2</fld>
+		<flag>1</flag>
+	</uz>
+	<uz>
+		<typeuz_id>1</typeuz_id>
+		<comment>Тип узла </comment>
+		<fld>rv_uz.typeuz </fld>
+		<flag>0</flag>
+	</uz>
+	<uz>
+		<typeuz_id>1</typeuz_id>
+		<comment>ДАТА</comment>
+		<fld>dat</fld>
+		<flag>0</flag>
+	</uz>
+	<uz>
+		<typeuz_id>1</typeuz_id>
+		<comment>Дата выхода </comment>
+		<fld>rv_uz.dat2 </fld>
+		<flag>0</flag>
+	</uz>
+	<uz>
+		<typeuz_id>1</typeuz_id>
+		<comment>№ счета </comment>
+		<fld>rv_uz.ndok </fld>
+		<flag>1</flag>
+	</uz>
+
+</tt>

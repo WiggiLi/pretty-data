@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<tt>
+	<uz1>
+		<typeuz_id>28</typeuz_id>
+		<comment>Не загр. </comment>
+		<fld>rv_uz1.flnettr </fld>
+		<flag>0</flag>
+	</uz1>
+	<uz1>
+		<typeuz_id>29</typeuz_id>
+		<comment>Не загр. </comment>
+		<fld>rv_uz1.flnettr </fld>
+		<flag>0</flag>
+	</uz1>
+	<uz1>
+		<typeuz_id>1</typeuz_id>
+		<comment>Метка изд. </comment>
+		<fld>rv_uz1.metdetizd </fld>
+		<flag>0</flag>
+	</uz1>
+
+</tt>

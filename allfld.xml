@@ -1,0 +1,16 @@
+<tt>
+  <row>
+    <tag>adres</tag> 		<!--name of tag-->
+    <comment></comment> 	<!--translate for attribute-->
+    <fld>adres_id</fld> 	<!--name of attribute-->
+    <flag>1</flag> 		<!--hide-->
+  </row>
+  <row>
+    <tag>adres</tag>
+    <comment></comment>
+    <fld>adres1</fld>
+    <flag>1</flag>
+  </row>
+ 
+   
+</tt>
